@@ -1,7 +1,7 @@
 # Ledger integrity under agent-speed traffic
 
 ```
-python3 run.py      # stdlib only, no install, ~10 seconds
+python3 run.py      # stdlib only, no install, under a second
 ```
 
 23,014 payment intents, 14 days, 400 agents, $5.5M through the ledger. 300 injected

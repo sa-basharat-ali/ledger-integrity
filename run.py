@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""python3 run.py   (stdlib only, no install, ~10s)"""
+"""python3 run.py   (stdlib only, no install, <1s)"""
 import os, sys, json, statistics as st
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
