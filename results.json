@@ -1,0 +1,125 @@
+{
+  "gross": 71569.5,
+  "net_visible": 38837.91,
+  "hidden_share": 0.4573399283214218,
+  "daily_alerts": 13,
+  "per_intent": {
+    "policy": "per-intent",
+    "by_mode": [
+      {
+        "mode": "dropped_ledger",
+        "n": 62,
+        "caught": 62,
+        "median_latency_h": 6.0,
+        "dollar_hours": 103837.31999999998
+      },
+      {
+        "mode": "duplicate_capture",
+        "n": 64,
+        "caught": 64,
+        "median_latency_h": 1.6501388888888888,
+        "dollar_hours": 24388.921011111106
+      },
+      {
+        "mode": "out_of_order",
+        "n": 54,
+        "caught": 54,
+        "median_latency_h": 0.0,
+        "dollar_hours": 0.0
+      },
+      {
+        "mode": "retry_storm",
+        "n": 53,
+        "caught": 0,
+        "median_latency_h": null,
+        "dollar_hours": 1661153.2678305549
+      },
+      {
+        "mode": "torn_write",
+        "n": 67,
+        "caught": 67,
+        "median_latency_h": 0.0,
+        "dollar_hours": 0.0
+      }
+    ],
+    "caught": 247,
+    "total": 300,
+    "dollar_hours": 1789379.508841666,
+    "false_positives": 233,
+    "precision": 0.5145833333333333
+  },
+  "fuzzy_sweep": [
+    {
+      "window_min": 2,
+      "caught": 17,
+      "added_fp": 8,
+      "precision": 0.5227722772277228,
+      "dollar_hours": 1279909.1319611107
+    },
+    {
+      "window_min": 5,
+      "caught": 41,
+      "added_fp": 31,
+      "precision": 0.5217391304347826,
+      "dollar_hours": 395335.63843055547
+    },
+    {
+      "window_min": 10,
+      "caught": 53,
+      "added_fp": 61,
+      "precision": 0.5050505050505051,
+      "dollar_hours": 128226.24101111108
+    },
+    {
+      "window_min": 20,
+      "caught": 53,
+      "added_fp": 110,
+      "precision": 0.4665629860031104,
+      "dollar_hours": 128226.24101111108
+    },
+    {
+      "window_min": 60,
+      "caught": 53,
+      "added_fp": 320,
+      "precision": 0.3516998827667057,
+      "dollar_hours": 128226.24101111108
+    }
+  ],
+  "pending_sweep": [
+    {
+      "hours": 1,
+      "caught": 62,
+      "fp": 17341,
+      "latency": 1.0,
+      "dollar_hours": 441829.5005083334
+    },
+    {
+      "hours": 3,
+      "caught": 62,
+      "fp": 5889,
+      "latency": 3.0,
+      "dollar_hours": 1259051.4908055554
+    },
+    {
+      "hours": 6,
+      "caught": 62,
+      "fp": 233,
+      "latency": 6.0,
+      "dollar_hours": 1789379.508841666
+    },
+    {
+      "hours": 12,
+      "caught": 62,
+      "fp": 181,
+      "latency": 12.0,
+      "dollar_hours": 1893216.828841666
+    },
+    {
+      "hours": 24,
+      "caught": 62,
+      "fp": 64,
+      "latency": 24.0,
+      "dollar_hours": 2100891.468841666
+    }
+  ]
+}
