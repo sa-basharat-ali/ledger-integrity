@@ -129,15 +129,15 @@ and misses the expensive one.
 
 ## Where this comes from
 
-I am the sole data engineer for a smart-retail platform, and the largest thing I have found
-there was an 80% upstream data loss: 37,000 rows landing against 177,000 expected,
+Through my own consulting practice I was the CEO's data person at a smart-retail computer
+vision startup, and the largest thing I found there was an 80% upstream data loss: 37,000 rows landing against 177,000 expected,
 root-caused to edge store corruption plus 31 branches that had been silently dead for
 weeks while reporting healthy. I shipped a six-fix package on a four-stage rollout, then
 built the ETL observability that would have caught it, which caught two more real issues on
 its first production run.
 
 Before that I built fraud detection and merchant risk models at Geidea, Saudi Arabia's
-largest fintech: 40,000+ merchants, 400,000+ POS terminals, over a million transactions a
+largest payments processor: 40,000+ merchants, 400,000+ POS terminals, over a million transactions a
 day.
 
 The reason this project is about reconciliation specifically is that the retail version and
